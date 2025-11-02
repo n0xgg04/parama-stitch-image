@@ -129,9 +129,16 @@ def main():
             'num_scales': args.sift_scales,
             'contrast_threshold': 0.01,  # Giảm threshold để detect nhiều keypoints hơn
             'edge_threshold': 20,  # Tăng để accept nhiều edges hơn
+            'border_width': 3,  # Giảm border để có nhiều keypoints hơn
+        },
+        matcher_params={
+            'ratio_threshold': 0.8,  # Tăng để accept nhiều matches hơn (default 0.75)
+            'cross_check': True,
         },
         ransac_params={
             'ransac_reproj_threshold': args.ransac_threshold,
+            'max_iters': 3000,  # Tăng iterations
+            'min_inliers': 8,  # Giảm min inliers
         },
         blending_params={
             'smoothing_window_percent': args.smoothing,

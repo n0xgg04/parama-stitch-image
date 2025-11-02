@@ -315,4 +315,7 @@ cd pure
 python test_pure.py
 ```
 
-📚 **Full documentation**: [`pure/README.md`](pure/README.md)
+📚 **Full documentation**:
+
+- [`pure/README.md`](pure/README.md) - Hướng dẫn sử dụng
+- [`pure/ALGORITHM_EXPLAINED.md`](pure/ALGORITHM_EXPLAINED.md) - Giải thích chi tiết thuật toán và lý thuyết

@@ -227,7 +227,17 @@ Nếu "Failed to compute homography":
 - Giảm `num_octaves` xuống 3
 - Giảm `num_scales` xuống 3-4
 
-## 📚 Tài liệu tham khảo
+## 📚 Tài liệu chi tiết
+
+📖 **[ALGORITHM_EXPLAINED.md](ALGORITHM_EXPLAINED.md)** - Giải thích chi tiết về thuật toán và cơ sở lý thuyết:
+
+- SIFT từ A-Z (Gaussian Pyramid, DoG, Keypoint Detection, Descriptors)
+- Feature Matching (L2 Distance, Lowe's Ratio Test)
+- Homography & RANSAC (DLT, Point Normalization)
+- Image Warping (Bilinear Interpolation)
+- Weighted Blending (Alpha Blending, Gaussian Smoothing)
+
+### Tài liệu tham khảo
 
 - [SIFT Paper - David Lowe](https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf)
 - [RANSAC Algorithm](https://en.wikipedia.org/wiki/Random_sample_consensus)

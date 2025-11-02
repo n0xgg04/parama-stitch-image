@@ -509,8 +509,8 @@ class SIFT:
         if norm > 0:
             descriptor = descriptor / norm
         
-        # Convert to uint8 equivalent (0-255 range)
-        descriptor = np.clip(descriptor * 512, 0, 255).astype(np.uint8)
+        # Keep as float32 for better matching accuracy
+        descriptor = descriptor.astype(np.float32)
         
         return descriptor
     
