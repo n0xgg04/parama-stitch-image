@@ -1,0 +1,7 @@
+# Pure Panorama Stitching Requirements
+# No OpenCV - only mathematical and image I/O libraries
+
+numpy>=1.20.0
+scipy>=1.7.0
+Pillow>=9.0.0
+
