@@ -23,7 +23,34 @@ pip install -r pure/requirements.txt
 
 ## 🚀 Sử dụng
 
-### Cách 1: Sử dụng script CLI
+### Cách 1: Sử dụng GUI (Dễ nhất! 🎨)
+
+```bash
+# Chạy GUI application
+python run_gui.py
+
+# Hoặc
+python -m pure.gui_app
+```
+
+**Tính năng GUI:**
+
+- 📁 Chọn nhiều ảnh dễ dàng
+- 👀 Xem preview danh sách ảnh
+- ⚙️ Điều chỉnh smoothing parameter
+- 🔧 Ghép ảnh với progress tracking
+- 💾 Lưu kết quả panorama
+- 📊 Hiển thị kết quả trực tiếp trong app
+
+**Hướng dẫn:**
+
+1. Nhấn "📁 Chọn Ảnh" và chọn 2+ ảnh (theo thứ tự từ trái sang phải)
+2. Điều chỉnh "Smoothing" nếu cần (default: 0.10)
+3. Nhấn "🔧 Ghép Ảnh" và đợi (có thể mất vài phút)
+4. Xem kết quả trên màn hình
+5. Nhấn "💾 Lưu Kết Quả" để lưu file
+
+### Cách 2: Sử dụng script CLI
 
 ```bash
 # Ghép 2 ảnh

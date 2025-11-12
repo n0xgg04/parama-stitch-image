@@ -243,6 +243,25 @@ Want to understand **exactly** how panorama stitching works? Check out our pure 
 
 ### Quick Start with Pure Version
 
+#### Option 1: GUI Application (Recommended! 🎨)
+
+```bash
+# Install dependencies (no OpenCV!)
+pip install -r pure/requirements.txt
+
+# Run GUI
+python run_gui.py
+```
+
+**GUI Features:**
+
+- Easy image selection
+- Real-time preview
+- Adjustable parameters
+- Save results with one click
+
+#### Option 2: Command Line
+
 ```bash
 # Install dependencies (no OpenCV!)
 pip install -r pure/requirements.txt
